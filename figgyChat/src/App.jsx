@@ -5,7 +5,7 @@ import ChatPage from './components/ChatPage';
 import AuthPage from './components/AuthPage';
 
 function App() {
-	const [user, setUser] = useState(null);
+	const [user, setUser] = useState(true);
 
   		const handleLogin = (userData) => {
     		setUser(userData);

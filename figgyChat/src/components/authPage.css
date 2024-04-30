@@ -1,0 +1,71 @@
+.auth-background{
+    background-color: #5A65EA;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.figgy-wrap{
+    background-color:  #F2F3F5;
+    border-radius: 3px;
+    width: 400px;
+    height: 319px;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+
+.figgy-title{
+    margin-top: 10px;
+}
+
+.logo-wrap{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+
+#logo{
+    width: 25px;
+    height: 25px;
+    margin-top: 15px;
+}
+
+.figgy-title{
+    text-align: center;
+    font-style: italic;
+}
+
+.auth-input {
+    margin-top: 15px;
+    margin-left: 20px;
+    color: black;
+    padding: 8px;
+    width: 90%;
+    height: 45px;
+    border: solid 1px;
+    border-radius: 8px;
+}
+
+.auth-input::placeholder{
+    padding: 8px;
+    color: black;
+}
+
+.proceedButton{
+    margin-top: 25px;
+    margin-left: 20px;
+    width: 90%;
+    height: 45px;
+    background-color: #5A65EA;
+    border: none;
+    border-radius: 5px;
+    color: #F2F3F5;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.proceedButton:hover{
+    background-color: #3544e6;
+    
+}
